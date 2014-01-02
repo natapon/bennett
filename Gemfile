@@ -16,7 +16,7 @@ gem 'whenever', require: false
 gem 'therubyracer', platforms: :ruby
 
 group :development do
-  gem 'capistrano'
+  gem 'capistrano', '~> 2.x'
   gem 'capistrano_colors'
   gem 'mongrel', '1.2.0.pre2'
 end
