@@ -200,7 +200,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass
   cancan
-  capistrano
+  capistrano (~> 2.x)
   capistrano_colors
   coffee-rails
   compass (= 0.12.alpha.1)
