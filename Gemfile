@@ -13,6 +13,7 @@ gem 'unicorn'
 gem 'devise'
 gem 'cancan'
 gem 'whenever', require: false
+gem 'therubyracer', platforms: :ruby
 
 group :development do
   gem 'capistrano'
